@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="CodeRunner_Tiled" tilewidth="32" tileheight="32">
+  <image source="CodeRunner_Tiled.png" width="64" height="64"/>
+  <tile id="3">
+   <properties>
+    <property name="blockTiled" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="32" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqq+uIBEw4DAQ==
+  </data>
+ </layer>
+ <layer name="block" width="32" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzaENAAAMw7CC/X/zzghxpGDftouv4vP5fD6fz+fzC7/8AS/2AbE=
+  </data>
+ </layer>
+ <objectgroup name="monster" width="32" height="24">
+  <object name="monster" x="704" y="128" width="32" height="32"/>
+ </objectgroup>
+</map>
